@@ -39,3 +39,6 @@ getRawData <- function(symList,columns,startDate = NULL,endDate = NULL,startTime
 getSummaryMetrics <- function(symList,columns,startDate = NULL,endDate = NULL,tradeRule = NULL,multiVenue = NULL,corpAction = NULL,ccy = NULL,specDates = NULL,noDays = NULL,excludeAuctions = NULL,dateList = NULL,adjustDate = NULL,includeDateType = NULL,excludeDateType = NULL){
         return(generateParam(h,'getSummaryMetrics',symList=symList,columns=columns,startDate=startDate,endDate=endDate,tradeRule=tradeRule,multiVenue=multiVenue,corpAction=corpAction,ccy=ccy,specDates=specDates,noDays=noDays,excludeAuctions=excludeAuctions,dateList=dateList,adjustDate=adjustDate,includeDateType=includeDateType,excludeDateType=excludeDateType))}
 
+hello <- function(){
+ return(print("Hello Tony!"))
+ }
