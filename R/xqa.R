@@ -40,5 +40,5 @@ getSummaryMetrics <- function(symList,columns,startDate = NULL,endDate = NULL,tr
         return(generateParam(h,'getSummaryMetrics',symList=symList,columns=columns,startDate=startDate,endDate=endDate,tradeRule=tradeRule,multiVenue=multiVenue,corpAction=corpAction,ccy=ccy,specDates=specDates,noDays=noDays,excludeAuctions=excludeAuctions,dateList=dateList,adjustDate=adjustDate,includeDateType=includeDateType,excludeDateType=excludeDateType))}
 
 hello <- function(){
- return(print("Hello Tony!"))
+ return(print("You can't see me!"))
  }
